@@ -1,0 +1,98 @@
+body {
+    max-width: 90%;
+    justify-content: center;
+    justify-items: center;
+    /* align-items: center; */
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    min-height: 100vh
+}
+
+#profile {
+    max-width: 85%;
+    margin: auto;
+}
+
+#left-col {
+    width: 30%;
+    background-color: #d4a37325;
+    margin-right: 3%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+#pieces {
+    width: 70%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: left;
+    background-color: #d4a37325;
+}
+
+#mall-piece{
+    margin: 2rem;
+}
+
+#buttons {
+    margin: auto;
+    max-width: 80%;
+}
+
+#seal-image {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 15rem;
+    height: auto;
+}
+
+#hello {
+    margin-bottom: 1rem;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+#mall-direc{
+    width: 80%;
+    height: auto;
+}
+
+#int-questions{
+    margin-top: 0;
+    margin-left: .5rem;
+}
+
+#spacer-2{
+    margin-bottom: 2rem;
+}
+
+#spacer-1{
+    margin-top: 3%;
+}
+
+
+#carouselExampleDark {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.d-block {
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn-outline-dark{
+    width: 80%;
+}
