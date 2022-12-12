@@ -29,13 +29,16 @@
 
       <div id="spacer-2"></div>
 
+      <p><b>Portfolio Pieces:</b></p>
+
       <div id="buttons">
         <div class="d-grid gap-2">
+         
+          <a href="salon-redesign.html"><button type="button" class="btn btn-outline-dark port-btn">Hair Salon Website Redesign</button></a>
+
           <a href="mall.html"><button type="button" button class="btn btn-outline-dark port-btn">Shopping Mall Directory Analysis</button></a>
 
-          <a href="salon-redesign.html"><button type="button" class="btn btn-dark port-btn">Hair Salon Website Redesign</button></a>
-
-          <a href="godiva-paper.html"><button type="button" class="btn btn-outline-dark port-btn">Godiva Retail Distribution Case Study</button></a>
+          <a href="godiva-paper.html"><button type="button" class="btn btn-outline-dark port-btn">Godiva Rebranding Case Study</button></a>
 
           <a href="react-app.html"><button type="button" class="btn btn-outline-dark port-btn">Cooking Recipe React App</button></a>
           
@@ -47,10 +50,180 @@
       
   </div>
 
-    <div id="pieces">
+  <div id="pieces">
+
+    <div id="specific-piece">
+      <h3 class="piece-title"><b>Hair Salon Website Redesign</b></h3>
+
+      <div id="inner-nav">
+        <div>
+          <a href="#context"><button type="button"  class="btn btn-sm btn-outline-dark">Context & Objective</button></a>
+
+          <a href=""><button type="button"  class="btn btn-sm btn-outline-dark">Identifying Usability Issues</button></a>
+
+          <a href=""><button type="button"  class="btn btn-sm btn-outline-dark">Prototyping</button></a>
+
+          <a href=""><button type="button"  class="btn btn-sm btn-outline-dark">Building Responsive Site</button></a>
+
+          <a href=""><button type="button"  class="btn btn-sm btn-outline-dark">Takeaways</button></a>
+
+        </div>
+      </div>
+        
+
+      <h5 id="context">Context & Objective</h5>
+      <ul>
+        <li>
+          As a consumer myself, I am quick to judge product and service providers by the quality of their websites. Today more than ever, sites that function well and look attractive across the device spectrum (phone, tablet, computer) are crucial for an engaging consumer experience that ultimately yields business revenue.
+        </li>
+        <li>
+          Eager to gain experience crafting a well-designed responsive site from scratch, I decided to redesign the website for Moss Hair Salon, a full-service salon located in Providence, RI. The current Moss website looks like this:
+        </li>
+        <img id="moss-site" src="images/moss-site-old.png"/>
+      </ul>
+
+      <h5>Identifying Usability Issues</h5>
+
+      <!-- <ul>
+
+        <li>
+          I started by careffuly analyzing the existing site to pinpoint usability issues that I could address in the redesign. Four main concerns became apparent:</li>
+          <li>
+            <i>Poor Learnability for New Users:</i> It is unclear how to perform typical tasks, such as booking a hair appointment, and salon reviews are hidden within "Our Staff" page, which new users would not be aware of
+          </li>
+          <li>
+            <i>Difficult to Determine State of the System:</i> "Our Staff" page on navigation menu is highlighted even when user is on the home page, making it confusing to know what page one is currently on</li>
+          <li><i>Visual Design Problems:</i> Low contrast areas make it difficult to read text, and unclear hierarchy on the site makes it challenging to find important information, such as the salon phone number</li>
+          <li><i>Acccessibility Concerns:</i> In addition to low contrast areas, non-descriptive alt tags on images negatively impact the site's accessibility</li>
+      </ul> -->
+
+      <ul>
+        <li>
+          I started by careffuly analyzing the existing site to pinpoint usability issues that I could address in the redesign. Four main concerns became apparent:</li>
+          <ul class="inner-bullets">
+            <li>
+              <i>Poor Learnability for New Users:</i> It is unclear how to perform typical tasks, such as booking a hair appointment, and salon reviews are hidden within "Our Staff" page, which new users would not be aware of
+            </li>
+            <li>
+              <i>Difficult to Determine State of the System:</i> "Our Staff" page on navigation menu is highlighted even when user is on the home page, making it confusing to know what page one is currently on</li>
+            <li><i>Visual Design Problems:</i> Low contrast areas make it difficult to read text, and unclear hierarchy on the site makes it challenging to find important information, such as the salon phone number</li>
+            <li><i>Acccessibility Concerns:</i> In addition to low contrast areas, non-descriptive alt tags on images negatively impact the site's accessibility</li>
+            
+          </ul>
+      </ul>
       
-      SALON REDESIGN
+
+      <h5>Prototyping</h5>
+      <ul>
+        <li>With the identified usability issues in mind, I created low-fidelity wireframes for the salon site across three different screen sizes: phone, tablet, and computer. The below wireframes are annotated to reflect how they address the usability concerns:</li>
+        <div id="lo-fi-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#lo-fi-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#lo-fi-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#lo-fi-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="images/lo-fi-phone.png" class="" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/lo-fi-tablet.png" class="" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/lo-fi-computer.png" class="" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#lo-fi-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#lo-fi-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <li>I then crafted high-fidelity prototypes to serve as guides for building the site in HTML and CSS. I annotated the hi-fi prototypes with guidelines for how to code them:</li>
+        <div id="hi-fi-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#hi-fi-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#hi-fi-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#hi-fi-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="images/hi-fi-phone.png" class="" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/hi-fi-tablet.png" class="" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/hi-fi-computer.png" class="" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#hi-fi-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#hi-fi-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        
+
+      </ul>
+
+      <h5>Building Responsive Site</h5>
+      <ul>
+        <li>Finally, I used HTML and CSS with the Bootstrap front-end framework to code and deploy a redesigned version of Moss's homepage. The page is fully responsive — well-suited users regardless of their device.</li>
+        <li>The redesigned site can be found <a href="https://happyseal123.github.io/ResponsiveRedesign/">here</a>.</li>
+        <li>Below are screenshots of the live site on phone, computer, and tablet-sized screens:</li>
+        <img id="final-redesign" src="images/final-product.png"/>
+
+
+
+
+
+        <!-- <div id="redesign-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#redesign-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#redesign-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#redesign-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="images/hi-fi-phone.png" class="" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="images/hi-fi-tablet.png" class="" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/hi-fi-computer.png" class="" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#redesign-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#redesign-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> -->
+
+      </ul>
+
+      <h5>Takeaways</h5>
+
+      <ul>
+        <li>Insert here</li>
+      </ul>
+      
     </div>
+    
+  </div>
 
   </body>
 </html>
