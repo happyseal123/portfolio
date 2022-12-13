@@ -7,7 +7,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Happy Seal's Portfolio</title>
+    <title>Shopping Mall Directory Analysis</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
@@ -36,7 +36,7 @@
          
           <a href="salon-redesign.html"><button type="button" class="btn btn-outline-dark port-btn">Hair Salon Website Redesign</button></a>
 
-          <a href="mall.html"><button type="button" button class="btn btn-outline-dark port-btn">Shopping Mall Directory Analysis</button></a>
+          <a href="mall.html"><button type="button" button class="btn btn-dark port-btn">Shopping Mall Directory Analysis</button></a>
 
           <a href="godiva-paper.html"><button type="button" class="btn btn-outline-dark port-btn">Godiva Rebranding Case Study</button></a>
 
@@ -59,13 +59,13 @@
           <div>
             <a href="#context"><button type="button"  class="btn btn-sm btn-outline-dark">Context & Objective</button></a>
 
-            <a href=""><button type="button"  class="btn btn-sm btn-outline-dark">UX Research</button></a>
+            <a href="#research"><button type="button"  class="btn btn-sm btn-outline-dark">UX Research</button></a>
   
-            <a href=""><button type="button"  class="btn btn-sm btn-outline-dark">Persona Development</button></a>
+            <a href="#personas"><button type="button"  class="btn btn-sm btn-outline-dark">Persona Development</button></a>
   
-            <a href=""><button type="button"  class="btn btn-sm btn-outline-dark">Storyboarding</button></a>
+            <!-- <a href=""><button type="button"  class="btn btn-sm btn-outline-dark">Storyboarding</button></a> -->
   
-            <a href=""><button type="button"  class="btn btn-sm btn-outline-dark">Takeaways</button></a>
+            <a href="#takeaways"><button type="button"  class="btn btn-sm btn-outline-dark">Takeaways</button></a>
   
           </div>
         </div>
@@ -73,19 +73,20 @@
 
         <h5 id="context">Context & Objective</h5>
         <ul>
-          <li>As someone who has always loved shopping malls, I jumped at the chance to examine an aspect of shopping malls from a user experience perspective. My goal was to examine one interface in-depth, conducting UX research, crafting personas of archetypal users, and creating a storyboard demonstrating one persona's use of the interface from start to finish.
+          <li>
+            For this project, I turned my attention to <i>digital mall directories, an integral part of the consumer experience at shopping centers</i>. My goal was to examine the interface in-depth by first conducting user experience research and then crafting personas of archetypal users.
           </li>
-          <li>I turned my attention to <i>digital mall directories:</i></li>
+          <!-- <b>*MAYBE ADD IN STORYBOARD PART LATER*</b> -->
           <img id="mall-direc" src="images/mall-directory.png"/>
-          <li>The above sketch highlights the key features of a digital mall directory. This interface aims to improve upon non-digital poster-style mall directories and help users find their way around a mall and discover mall features. A touchscreen makes it possible for users to look at store, office, and dining directories, as well as locate restrooms, see a general map, and find information on current store promotions. The directory also allows users to obtain directions to a specific mall tenant.</li>
+          <li>Digital mall directories, sketched above, aim to improve upon non-digital poster-style mall directories to help users better find their way around a shopping center and discover mall features. A touchscreen makes it possible for users to look at mall offerings, locate restrooms, obtain directions to a specific tenant, and find information on current store promotions.</li>
         </ul>
 
-        <h5>UX Research</h5>
+        <h5 id="research">UX Research</h5>
 
         <ul>
 
           <li>
-            Within a shopping center located in metropolitan Boston, Massachusetts, I conducted observations of people using the digital mall directory, gaining the following insights:</li>
+            Within a shopping center located in metropolitan Boston, Massachusetts, I conducted <i>observations</i> of people using the digital mall directory, gaining the following insights:</li>
           <ul class="inner-bullets">
             <li>
               Some users explored one item from the right menu (ex: "Stores"), while others browsed through
@@ -96,50 +97,33 @@
               to their selected destination
             </li>
             <li>
-              Some users scrolled through the list of shops and restaurants, while others immeadiately
-              filtered by alphabet letter upon opening up the main directory
-            </li>
-            <li>
               The amount of time users spent engaging with the dirctory varied considerably, from less than a minute to over five minutes
             </li>
             <li>
               Some users would tap the directory once and wait for the screen to change, while others would tap repeatedly if the directory did not respond right away
             </li>
-            <li>
-              Some users were alone, while others looked at the directory with people they came to the mall with
-            </li>
           </ul>
 
           <li>
-            To gain a deeper understanding of the users of digital mall directories and their user experience, I posed the following questions in interviews with people who had just finished the using the device:</li>
+            To gain a deeper understanding of the digital mall directory user experience, I conducted <i>interviews</i> with people who had just finished the using the device, asking questions including:
+          </li>
           <ul class="inner-bullets">
             <li>What was the reason you began using the mall directory just now?</li>
             <li>Can you show me the steps you took to find what you were looking for?</li>
             <li>How easy or difficult was it to find what you were looking for?</li>
             <li>Did you end up using the directory for any purpose beyond what you originally planned on?</li>
             <li>Are there any features of the directory that you found challenging to use?</li>
-            <li>The mall directory you just used is referred to as a digital directory. Have you ever used a non-digital mall directory? (If yes:) Do you have a preference between digital and non-digital mall directories? Why?</li>
-            <li>Are there any features you wish the directory had?</li>
           </ul>
           <li>
-            I obtained the following insights from my interviews:
+            Some of the <i>key information I obtained from my interviews</i> is:
           </li>
           <ul class="inner-bullets">
             <li>
-              The reason users engaged with the directory differed, from wanting to find specific stores to locating the
-              nearest restroom to browsing the entire range of shopping and dining options
-            </li>
-            <li>
-              Users found the animated map with moving arrows to indicate walking directions useful, but some still
-              struggled with orienting themselves and wished the directions were clearer
+              Users engaged with the directory for different reasons, from wanting to find specific stores to locating the nearest restroom to browsing the entire range of shopping and dining options
             </li>
             <li>
               Some users ended up using the directory for a reason other than their original purpose, such as finding a spot to 
               grab coffee when they originally just wanted to find a single store
-            </li>
-            <li>
-              One of the users was frustrated that the dining options could not be filtered by type
-              of dining (ex: sit-down resaurant, fast food, coffee shop)
             </li>
             <li>
               Users generally preferred digital to non-digital directories, but one of the users said they usually just look up the stores of a mall on their phone
@@ -148,9 +132,9 @@
         </ul>
         
 
-        <h5>Persona Development</h5>
+        <h5 id="personas">Persona Development</h5>
         <ul>
-          <li>Using my observations and interview results, I crafted personas to represent two archetypal users of digital mall directories. EXPLAIN WHAT PERSONAS ARE</li>
+          <li>Using my observations and interview results, I crafted personas to represent two archetypal users of digital mall directories. <i>Personas</i> are fictional individuals that UI/UX designers use to represent typical users of an interface.</li>
 
           <li><i>One-Stop Samantha</i> is busy with errands today and stopped at the mall to quickly return an item she purchased online, though she considers grabbing coffee quickly if she has time.</li>
           <img class="personas" src="images/samantha.png"/>
@@ -158,22 +142,27 @@
 
           <li><i>Leisurely Liam</i> came to the mall with friends to have a relaxed day of shopping and eating. Today, he wants to treat himself.</li>
           <img class="personas" src="images/liam.png"/>
-          <p class="persona-des">Liam wants to go to a few specific stores, but also wants to browse the mall's many shopping and dinding options. His interface challenges include being able to browse all of the mall's options and finding specific types of dining options (ex: sit-down spots for lunch). Liam represents another important group of directory users. It is common for people to come to the mall for leisurely browsing and eating, and directories must serve this class of users properly.</p>
+          <p class="persona-des">Liam wants to go to a few specific stores, but also wants to browse the mall's many shopping and dining options. His interface challenges include being able to browse all of the mall's options and finding specific types of dining options (ex: sit-down spots for lunch). Liam represents another important group of directory users. It is common for people to come to the mall for leisurely browsing and eating, and directories must serve this class of users properly.</p>
 
         </ul>
 
-        <h5>Storyboarding</h5>
+        <!-- <h5>Storyboarding</h5>
         <ul>
           <li>EXPLAIN WHAT STORYBOARDS ARE</li>
           <li>Considering One-Stop Samantha more in-depth, I crafted a storyboard to show her interaction with the digital mall directory:</li>
           <li>ADD IN STORYBOARD AT END OR GET RID OF STORYBOARD SECTION ENTIRELY</li>
 
-        </ul>
+        </ul> -->
 
-        <h5>Takeaways</h5>
+        <h5 id="takeaways">Takeaways</h5>
 
         <ul>
-          <li>Insert here</li>
+          <li>
+            <i>Good interview questions are essential</i> for succesful UX research! While conducting interviews of mall directory users, I found that questions targeting a specific aspect of using the directory yielded more information than general questions.
+          </li>
+          <li>
+            <i>Keeping personas realistic is important, but not necessarily easy.</i> Personas are used to motivate and inspire the work of UI/UX designers, so keeping them aligned to real users is essential. I had to actively return to my data from observations/interviews to prevent falling into the trap of creating a persona just made up of stereotypes and tropes.
+          </li>
         </ul>
         
         
